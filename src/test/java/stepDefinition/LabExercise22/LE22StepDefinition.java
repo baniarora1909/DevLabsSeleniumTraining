@@ -11,9 +11,9 @@ public class LE22StepDefinition extends Operations{
 	DbankdemoPages dbankdemoPages = new DbankdemoPages();
 	
 	@When("^Enter the user name \"([^\"]*)\"$")
-	public void enter_the_user_name(String username) throws Throwable {
+	public void enter_the_user_name(String user) throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
-	    EnterText(dbankdemoPages.username, readConfigFile(username));
+	    EnterText(dbankdemoPages.username, readConfigFile(user));
 	}
 
 	@When("^Enter the password \"([^\"]*)\"$")

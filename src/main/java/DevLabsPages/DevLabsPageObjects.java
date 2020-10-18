@@ -18,5 +18,7 @@ public class DevLabsPageObjects {
 	@FindBy(how = How.NAME, using = "zxcvbnm")
 	public WebElement confirmButton;
 	
+	@FindBy(how = How.ID, using = "aswdefr")
+	public WebElement promptButton;
 	
 }
