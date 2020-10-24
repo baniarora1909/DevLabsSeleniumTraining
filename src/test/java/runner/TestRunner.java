@@ -17,7 +17,7 @@ import helper.Utilities;
         plugin = { "pretty","com.cucumber.listener.ExtentCucumberFormatter:","json:target/cucumber.json"}, 
         glue = "stepDefinition", 
         features = "src/test/resources/features/",
-                tags={"@ScenrioOutlineExample"},
+                tags={"@RamQuery"},
          monochrome = true)
 public class TestRunner {
 	

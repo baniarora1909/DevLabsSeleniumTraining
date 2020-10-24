@@ -1,4 +1,4 @@
-package stepDefinition.LabExercise22;
+package stepDefinition.LabExercise;
 
 import DevLabsPages.DbankdemoPages;
 import cucumber.api.java.en.Then;
