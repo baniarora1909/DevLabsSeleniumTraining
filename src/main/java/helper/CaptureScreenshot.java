@@ -10,7 +10,7 @@ import org.apache.commons.io.FileUtils;
 public class CaptureScreenshot {
 	
 	public String takeSnapShot() {
-		
+		//Screenshot Capture
 		Utilities utilities = new Utilities();
 	    String screenshotFolderName = utilities.timestamp();
 		
